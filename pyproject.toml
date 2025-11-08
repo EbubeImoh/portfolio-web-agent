@@ -1,0 +1,25 @@
+[project]
+name = "my-agents"
+version = "0.1.0"
+description = "An assembly off all my agents from beginner level to advanced."
+readme = "README.md"
+authors = [
+    { name = "Ebube Imoh", email = "ebubeimoh@gmaill.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=5.22.0",
+    "python-dotenv>=1.0.1",
+    "gradio>=5.22.0",
+    "pypdf>=5.4.0",
+    "pypdf2>=3.0.1",
+    "openai>=1.68.2",
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+my-agents = "my_agents:main"
+
+[build-system]
+requires = ["uv_build>=0.9.7,<0.10.0"]
+build-backend = "uv_build"
