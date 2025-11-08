@@ -4,7 +4,7 @@ app_file: app.py
 sdk: gradio
 sdk_version: 5.49.1
 ---
-## my-agent
+## portfolio-web-agent
 
 This repo hosts Ebube's personal web chat agent. The `app.py` entry point loads résumé data, builds a system prompt, and serves a Gradio UI backed by Gemini with tool support for collecting leads and logging unanswered questions.
 
